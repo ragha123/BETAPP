@@ -1,0 +1,77 @@
+body{
+    font-family:'Franklin Gothic Medium';
+    background-color:blanchedalmond;
+}
+nav{
+background:blue;
+height:80px;
+width:100%;
+}
+.logo{
+    color:white;
+    font-size: 50;
+    line-height: 80px;
+    padding:0 100px;
+    font-weight:bold;
+    
+}
+nav ul{
+    float:right;
+    margin-right: 20 px;
+
+}
+nav ul li{
+    display:inline-block;
+    line-height:80px;
+    margin: 0 5px;
+}
+nav ul li a{
+
+    color:white;
+    font-size:17px;
+    }
+h2{
+    padding-left: 280;
+}
+
+body 
+{font-family: Verdana, sans-serif; margin:0}
+
+img {
+  vertical-align: middle;
+  }
+
+.slideshow-container {
+  max-width: 2000;
+  position: relative;
+
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: 50;
+  padding: 16px;
+  margin-top: -22px;
+  color:white;
+  font-weight: bold;
+  font-size: 40px;
+  border-radius: 0px 3px 3px 0;
+  
+}
+.next {
+  right: 25;
+  margin-top:1 ;
+  border-radius: 3px 3px 0 3px;
+}
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.active {
+  background-color:black;
+}
