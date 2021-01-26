@@ -1,0 +1,64 @@
+<html>
+    <head>
+      <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <nav>
+            <label class="logo">Bet.Apps</label>
+            <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">PAGES</a></li>
+            <li><a href="#">ABOUT</a></li>
+            </ul>
+        </nav>
+        <p><b><h2><center>We are creating a beautiful mobile betting app </center></h2></b><center>Want to start your venture into the world of online betting apps?<br/>Here is the ultimate guide to teach you all you need to know.</center></p>
+            <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                  <img src="BETTING.jpg" width="1250" height="500">
+                  
+                </div>
+                
+                <div class="mySlides fade">
+                  <img src="pic2.jpg"width="1250" height="500" >
+                  
+                </div>
+                
+                <div class="mySlides fade">
+                  <img src="pic3.jpg"width="1250" height="500">
+                  
+                </div>
+                
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                
+                </div>
+            
+                
+                <script>
+                var Index = 1;
+                s(Index);
+                
+                function plusSlides(n) {
+                  s(Index += n);
+                }
+                
+                function currentSlide(n) {
+                  s(Index = n);
+                }
+                
+                function s(n) {
+                  var i;
+                  var slides = document.getElementsByClassName("mySlides");
+                  if (n > slides.length) {Index = 1}    
+                  if (n < 1) {Index = slides.length}
+                  for (i = 0; i < slides.length; i++) {
+                      slides[i].style.display = "none";  
+                  }
+                  slides[Index-1].style.display = "block";  
+                  
+                }
+                </script>
+            
+    </body>
+</html>
